@@ -38,25 +38,17 @@ document.addEventListener('DOMContentLoaded', event => {
         });
     };
 
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
 
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
-            }
-        });
-    });
 
 });
 
 $(document).ready(function(){
     var images=[
-        'img/img01.jpeg',
-        'img/img02.jpeg',
-        'img/img03.jpeg',
-        'img/img04.jpeg'];
+        'img/img01.jpg',
+        'img/img02.jpg',
+        'img/img03.jpg',
+        'img/img04.jpg',
+        'img/img05.jpg'];
 
     var randomNumber = Math.floor(Math.random() * images.length);
     var bgImg = 'url(' + images[randomNumber] + ')';
