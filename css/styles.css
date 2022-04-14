@@ -117,6 +117,9 @@ h1, .h1 {
   }
 }
 
+h2, .h2 {
+  font-size: calc(1.3rem + 1.0vw);
+}
 @media (min-width: 1200px) {
   h2, .h2 {
     font-size: 2rem;
@@ -124,7 +127,7 @@ h1, .h1 {
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.275rem + 0.5vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -133,7 +136,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.250rem + 0.25vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
@@ -11304,7 +11307,7 @@ p {
 .page-section {
   padding: 6rem 0;
 }
-.page-section h2.section-heading, .page-section .section-heading.h2 {
+.page-section h2.section-heading, h2.section-subheading .page-section .section-heading.h2 {
   font-size: 30px;
   margin-top: 0;
   margin-bottom: 15px;
