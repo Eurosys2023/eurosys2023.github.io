@@ -102,7 +102,7 @@
         <div class="container">
             <div class="row">
                 <div class="text-justify">
-                    <h2 class="section-heading"><strong>Preliminary</strong> Call for Papers</h2>
+                    <h2 class="section-heading">Call for Papers</h2>
 
                     <!--
                     <p style="background-color:#FDF2E9;">
@@ -190,6 +190,54 @@
                     <p>Authors submitting to EuroSys must adhere to ACM’s policy on <a href="https://www.acm.org/publications/policies/simultaneous-submissions">Prior Publication and Simultaneous Submissions</a>. If a revision option is offered and accepted, the paper is still considered under submission to EuroSys and still subject to this policy until it is explicitly withdrawn or rejected. If a revision option is offered and declined, the same policy applies as for a rejection.</p>
 
                     <p>If a paper is rejected after a revise-and-resubmit, it may not be submitted again to EuroSys until 11 months after the deadline to which the revised version was submitted.</p>
+
+                    <h2 class="section-heading">Submission Instructions</h2>
+
+                    <p><strong>Submission URL will be live soon, please watch this space.</strong></p>
+
+                    <strong>Anonimity</strong>: Reviewing is double-blind, meaning that the authors‘ identities will be hidden from the reviewers and vice versa. Authors must make a good faith effort to anonymize their submissions, and they should not identify themselves either explicitly or by implication (e.g., through the references or acknowledgments). Authors should be listed as:
+                    <p>
+                        <ul>
+                            <li>Anonymous Author(s)</li>
+                            <li>Submission Id: &lt;Paper-ID&gt; where the &lt;Paper-ID&gt; is the ID assigned after abstract registration.</li>
+                        </ul>
+                    </p>
+
+                    <p>Use care in referring to your own related work. Do not omit references to your prior work, as this would make it difficult for reviewers to place your submission in its proper context. Instead, reference your past work in the third person, just as you would any other piece of related work. For example, you might say “Our system modifies the XYZ operating system built by Smith et al. [17]”.</p>
+
+                    <p>If your submission extends a previous workshop paper, or it may relate to a submission currently under review. In these cases, you must still explain the differences between your present submission and the other work, but you should cite the other work anonymously and e-mail the deanonymized work to the PC chairs.</p>
+
+                    <p>Authors are permitted to post drafts of their submission on e.g. arxiv or as technical reports on their institution’s website. However, the submitted version should have a substantially different title, and a different system/tool name (if it uses one) from the draft version.</p>
+
+                    <p>Submissions violating the detailed formatting and anonymization rules will not be considered for review. EuroSys applies ACM‘s policies for plagiarism, conflicts of interest, submission conﬁdentiality, reviewer anonymity, and prior and concurrent paper submission. If you are uncertain about how to anonymize your submission, whether or not your submissions meet these guidelines, or have speciﬁc questions about the guidelines, please contact the program co-chairs, <a href="mailto:eurosys23-pc-chairs@eurosys.org"><strong>eurosys23-pc-chairs@eurosys.org</strong></a>, well in advance of the submission deadline.</p>
+
+                    <p><strong>Conflicts</strong>: When registering and submitting your paper, you will need to provide information about conflicts with PC members. Use the following guidelines to determine conflicts:
+                        <ul>
+                            <li><strong>Institution</strong>:  You are currently employed at the same institution, have been previously employed at the same institution within the past two years, or are going to begin employment at the same institution.</li>
+                            <li><strong>Advisor or Collaboration</strong>: You have a past or present association as thesis advisor or advisee, or you have a collaboration on a project, publication, grant proposal, or editorship within the past two years (2020 or later), or reasonably expect one within the next year.</li>
+                        </ul>
+                    </p>
+
+                    <p>More details on the conflict of interest policy can be found at the <a href="https://www.acm.org/publications/policies/conflict-of-interest">ACM website.</a></p>
+
+                    <p>The PC chairs will review paper conflicts to ensure the integrity of the reviewing process, adding conflicts if necessary. Similarly, if there is no basis for conflicts provided by authors, such conflicts will be removed. Improperly identifying PC members as a conflict in an attempt to avoid having an individual review your paper may lead to the submission being rejected without review. If you have any questions about conflicts, please contact the program co-chairs (<a href="mailto:eurosys23-pc-chairs@eurosys.org"><strong>eurosys23-pc-chairs@eurosys.org</strong></a>).</p>
+
+                    <p>
+                        <strong>Page limit and formatting</strong>: Submissions may have at most 12 pages of technical content, including all text, figures, tables, appendices, etc. Bibliographic references are not included in the 12-page limit. Use A4 or US letter paper size, with all text and figures fitting inside a 178 x 229 mm (7 x 9 in) block centered on the page, using two columns separated by ≥8 mm (0.33″) of whitespace. Use ≥10-point font (typeface Times Roman, Linux Libertine, etc.) on ≥12-point (single-spaced) leading for all text including figure and table captions. Graphs and figures should be readable when printed in grayscale, without magnification. All pages should be numbered. Authors are encouraged to hyperlink their references.
+                        <br>
+                        Most of these rules are automatically applied when using the official SIGPLAN Latex (\documentclass[sigplan, … ]) or MS Word templates from <a href="https://www.acm.org/publications/authors/submissions">here</a>. For any paper parameters not defined above, assume that the required value is the one used in these templates.
+                    </p>
+
+                    <p>Any papers that deviate significantly from the formatting instructions will be administratively rejected.</p>
+
+                    <p>For Latex, we recommend you use (where &lt;PAPER_ID&gt; is the paper ID you received after abstract registration):</p>
+                    <pre>\documentclass[sigplan,review,anonymous]{acmart}
+\acmSubmissionID{&lt;PAPER_ID&gt;}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+% Optional: Remove the ACM reference between the abstract and the main text.
+\settopmatter{printfolios=true,printacmref=false}
+% Optional: Comment out the CCS concepts and keywords.
+...</pre>
 
                     <h2 class="section-heading">Contact</h2>
                     <p> <strong>For any further information, please contact the PC chairs:</strong> <a href="mailto:eurosys23-pc-chairs@eurosys.org"><strong>eurosys23-pc-chairs@eurosys.org</strong></a></p>
