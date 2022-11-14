@@ -56,3 +56,13 @@ $(document).ready(function(){
     $('header.masthead').css({'background-image':bgImg, 'background-size':'cover', });
 
 });
+
+$(document).ready(function(){
+
+    $('header.workhead').css({
+        "color": "#fff",
+        "text-align": "center",
+        "background-color": "#159957",
+    });
+
+});
