@@ -11443,8 +11443,8 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 header.masthead .photo-credit {
@@ -11457,7 +11457,7 @@ header.masthead .photo-credit {
 header.masthead .masthead-subheading {
   font-size: 18px;
   line-height: 22px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 header.workhead .workhead-heading {
@@ -11475,13 +11475,13 @@ header.masthead .masthead-heading {
   font-size: 30px;
   font-weight: 700;
   line-height: 35px;
-  margin-bottom: 0;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 220px;
+    padding-bottom: 250px;
   }
 
   header.masthead {
