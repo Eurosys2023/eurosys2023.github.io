@@ -11440,6 +11440,12 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover;
 }
+
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
 header.masthead .photo-credit {
   font-size: 60%;
   position: relative;
@@ -11471,15 +11477,28 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
 }
 
+header.masthead .intro-text .intro-lead-in {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 25px;
+}
 
 @media (min-width: 768px) {
-  header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-  }
   header.masthead .intro-text {
     padding-top: 220px;
     padding-bottom: 250px;
+  }
+
+  header.masthead {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
