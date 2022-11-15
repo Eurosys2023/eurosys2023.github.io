@@ -11439,11 +11439,12 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 0;
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 header.masthead .photo-credit {
@@ -11456,7 +11457,7 @@ header.masthead .photo-credit {
 header.masthead .masthead-subheading {
   font-size: 18px;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 header.workhead .workhead-heading {
@@ -11474,13 +11475,13 @@ header.masthead .masthead-heading {
   font-size: 30px;
   font-weight: 700;
   line-height: 35px;
-  margin-bottom: 25px;
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 220px;
-    padding-bottom: 250px;
+    padding-top: 10px;
+    padding-bottom: 5px;
   }
 
   header.masthead {
