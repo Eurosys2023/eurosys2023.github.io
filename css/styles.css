@@ -11428,7 +11428,6 @@ header.workhead {
 }
 
 header.masthead {
-  display: block;
   text-align: center;
   color: white;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.35);
@@ -11453,7 +11452,7 @@ header.masthead .photo-credit {
   top: 70px;
 }
 
-header.masthead .masthead-subheading {
+header.masthead .intro-text .masthead-subheading {
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 25px;
@@ -11470,7 +11469,7 @@ header.workhead .workhead-heading {
   font-weight: bold;
 }
 
-header.masthead .masthead-heading {
+header.masthead .intro-text .masthead-heading {
   font-size: 30px;
   font-weight: 700;
   line-height: 35px;
@@ -11481,11 +11480,6 @@ header.masthead .masthead-heading {
   header.masthead .intro-text {
     padding-top: 220px;
     padding-bottom: 250px;
-  }
-
-  header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
   }
 
   header.masthead .intro-text .masthead-subheading {
