@@ -307,6 +307,11 @@ svg {
 table {
   caption-side: bottom;
   border-collapse: collapse;
+  border: 0;
+  margin: 0 0px 24px 0;
+  text-align: left;
+  width: 100%;
+  vertical-align: top;
 }
 
 caption {
@@ -321,11 +326,22 @@ th {
   text-align: -webkit-match-parent;
 }
 
+th.bord{
+  border-right: 2px solid;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td.bord{
+  border-right: 2px solid;
+}
+
 thead,
 tbody,
 tfoot,
 tr,
-td,
 th {
   border-color: inherit;
   border-style: solid;
