@@ -88,6 +88,11 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.inline-block {
+  display: inline-block;
+  margin-right:15px;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
