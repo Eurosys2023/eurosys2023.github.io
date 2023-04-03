@@ -364,9 +364,11 @@ td.sch, th.sch{
   position: relative;
 }
 
+/*
 tr.sch:hover {
   background-color: #ffa;
 }
+ */
 
 td.sch.work{
   background-color: #ffdde0;
