@@ -337,10 +337,13 @@ td, th {
   position: relative;
 }
 
-tbody.pap:nth-child(even) {
+table.pap:nth-child(even) {
   background-color: #dddddd;
 }
 
+thead.pap{
+  background-color: #ffffff;
+}
 
 table.sch {
   table-layout:auto;
