@@ -337,7 +337,7 @@ td, th {
   position: relative;
 }
 
-tr:nth-child(even) {
+tbody.pap:nth-child(even) {
   background-color: #dddddd;
 }
 
