@@ -341,6 +341,7 @@ tbody.pap:nth-child(even) {
   background-color: #dddddd;
 }
 
+
 table.sch {
   table-layout:auto;
   caption-side: bottom;
