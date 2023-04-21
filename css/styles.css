@@ -392,6 +392,9 @@ td.sch.close{
 td.sch.social{
   background-color: #c0e1ec;
 }
+td.sch.spons{
+  background-color: #E3EC1A;
+}
 
 tr:nth-child(even) {
   background-color: #ffffff;
