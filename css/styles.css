@@ -315,7 +315,6 @@ table {
   border: 0;
   margin: 0 0px 24px 0;
   text-align: left;
-  width: 100%;
   vertical-align: top;
 }
 
@@ -352,7 +351,6 @@ table.sch {
   border: 0;
   margin: 0 0 24px 0;
   text-align: left;
-  width: 100%;
   vertical-align: top;
 }
 
@@ -432,6 +430,16 @@ td.sch.days{
 td.sch a{
   color: #0000EE;
   text-decoration: none;
+}
+
+table.workday {
+  table-layout:auto;
+  caption-side: bottom;
+  border-collapse: collapse;
+  border: 0;
+  margin: 0 0 24px 0;
+  text-align: left;
+  vertical-align: top;
 }
 
 ul.sch{
