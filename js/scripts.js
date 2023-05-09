@@ -36,10 +36,7 @@ document.addEventListener('DOMContentLoaded', event => {
             target: '#mainNav',
             offset: 74,
         });
-    };
-
-
-
+    }
 });
 
 $(document).ready(function(){
